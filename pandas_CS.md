@@ -1,6 +1,6 @@
 #Python
 ## Pandas
-### Pandas dataframe information code
+### Dataframe information
 df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
 ```python
@@ -11,7 +11,7 @@ df.describe() # provides generic statistics
 df.dtypes #data types of each column
 
 ```
-### Pandas Boolean Masking
+### Boolean Masking
 df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
 
@@ -20,7 +20,7 @@ df.market_value > 40.0 # df having column market_value, the code will give all t
 df[df.market_value > 40.0] #Will give rows which are True
 
 ```
-### Pandas get unique values
+### Get unique values
 df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
 ```python
