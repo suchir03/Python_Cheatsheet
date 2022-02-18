@@ -18,8 +18,22 @@ ds--> DataSeries in variable ds
 ```python
 df.market_value > 40.0 # df having column market_value, the code will give all the values greater than 40 as True
 df[df.market_value > 40.0] #Will give rows which are True
-
 ```
+or
+```python
+df[df.market_value.lt(40)] #Supports fill value
+```
+Pandas Method
+.lt()
+.le()
+.gt()
+.ge()
+.eq()
+```python
+df.market_value.between(20,40) # range boolean operation
+df.market_value.isin(value)# value can be list or set
+```
+
 ### Get unique values
 df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
