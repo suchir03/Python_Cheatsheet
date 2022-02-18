@@ -16,8 +16,8 @@ df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
 
 ```python
-df.market_value > 40.0 # df having column market_value, the code will give all the values greater than 40 as True
-df[df.market_value > 40.0] #Will give rows which are True
+df.<column_name> > 40.0 # df having column, the code will give all the values greater than 40 as True
+df[df.<column_name> > 40.0] #Will give rows which are True (True which are greater than 40
 ```
 or
 
