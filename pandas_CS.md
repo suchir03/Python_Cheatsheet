@@ -1,11 +1,32 @@
+#Python
+## Pandas
 ### Pandas dataframe information code
+df--> DatarFrame in variable df
+ds--> DataSeries in variable ds
 ```python
-
-df = pd.read_csv(<filename>)
-
 df.info(verbose:(bool|None)=None) # Provides columns info and data types
 df.shape #provides rows x columns
 df.size #provdies length for series and row multiplied by columns for dataframes
 df.describe() # provides generic statistics
+df.dtypes #data types of each column
+
+```
+### Pandas Boolean Masking
+df--> DatarFrame in variable df
+ds--> DataSeries in variable ds
+
+```python
+df.market_value > 40.0 # df having column market_value, the code will give all the values greater than 40 as True
+df[df.market_value > 40.0] #Will give rows which are True
+
+```
+### Pandas get unique values
+df--> DatarFrame in variable df
+ds--> DataSeries in variable ds
+```python
+df.<column_name>.unique() #Give unique values of that column
+df.<column_name>.nunique() #Give the number of unique values
+ds.unique() #Series
+ds.nunique() #Series
 
 ```
