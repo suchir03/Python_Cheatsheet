@@ -25,11 +25,13 @@ or
 df[df.market_value.lt(40)] #Supports fill value
 ```
 Pandas Method
+<code>
 .lt()
 .le()
 .gt()
 .ge()
 .eq()
+ </code>
 
 ```python
 df.market_value.between(20,40) # range boolean operation
