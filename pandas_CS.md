@@ -42,7 +42,7 @@ Binary (or bitwise operators)
 
 | Operator | What IS | Example |  
 |-----------|:-----------:|-----------:|  
-| | | or | True | False -> True |  
+| \| | or | True | False -> True |  
 | & | and | True & False -> False |
 | ^ | xor | True ^ False -> True |
 | ~ | complement | ~True -> -2 
@@ -53,11 +53,11 @@ Example:
 ds1 = pd.Series([True, True, True])
 ~ds1
 ```
-<code>
+```
 0    False <\br>
 1    False <\br>
 2    False <\br>
-<\code>
+```
 
 ### Get unique values
 df--> DatarFrame in variable df
