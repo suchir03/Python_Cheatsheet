@@ -12,7 +12,7 @@ df.dtypes #data types of each column
 
 ```
 ### Boolean Masking
-df--> DatarFrame in variable df\n
+df--> DatarFrame in variable df \n
 ds--> DataSeries in variable ds
 
 ```python
