@@ -25,8 +25,8 @@ df--> DatarFrame in variable df
 ds--> DataSeries in variable ds
 ```python
 df.<column_name>.unique() #Give unique values of that column
-df.<column_name>.nunique() #Give the number of unique values
+df.<column_name>.nunique() #Give the number of unique values; Excludes 'NaN'
 ds.unique() #Series
-ds.nunique() #Series
+ds.nunique() #Series; Excludes 'NaN'
 
 ```
